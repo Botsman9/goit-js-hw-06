@@ -1,0 +1,2 @@
+const counterValue = 0;
+
