@@ -1,9 +1,9 @@
-const refs = {
-    inputRef: document.querySelector("#font-size-control"),
-    textRef: document.querySelector("#text"),
-}
-console.log(refs);
+
+const inputRef = document.querySelector("#font-size-control");
+const textRef = document.querySelector("#text");
+const rrr = 
+    
 
 inputRef.addEventListener("input", () => {
-    textRef.textContent.datasetSize = inputRef.value;
- })
+    textRef.style.fontSize = `${ inputRef.value}px`;
+});
