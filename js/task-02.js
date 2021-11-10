@@ -15,7 +15,7 @@ const yyy = ingredients.map((item) => {
   return li;
 });
 
-ingredien.append(...yyy);
+ ingredien.append(...yyy);
 console.log(yyy);
 
 
