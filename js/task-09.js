@@ -1,7 +1,5 @@
 const bodyColor = document.querySelector("body")
 
-const randColor = document.querySelector(".widget")
-
 const spanColor = document.querySelector(".color")
 
 const buttonColor = document.querySelector(".change-color")
